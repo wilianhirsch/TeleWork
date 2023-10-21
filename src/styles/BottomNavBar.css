@@ -39,8 +39,6 @@
   opacity: 0;
 }
 
-
-
 .acoes {
   display: flex;
   flex-direction: row;
@@ -48,7 +46,7 @@
   z-index: 10000000000000;
 }
 
-.acoes div {
+.acoes button {
   background-color: #da2047;
   width: 40px;
   height: 40px;
@@ -59,6 +57,11 @@
   align-items: center;
   border: 1px solid #00392d;
   color: white;
+}
+
+.acoes span{
+  display: flex;
+  text-align: center  ;
 }
 
 @keyframes entrada-aus {
@@ -96,18 +99,27 @@
     transform: translateX(100%);
   }
 }
-.aus-inesp{
+.botao-label-aus-inesp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
   animation: entrada-aus 0.3s linear forwards;
-  position: absolute;
-  bottom: 120px;
+  position: fixed;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-200%);
 }
-
-.sol-alt {
+.botao-label-sol-alt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
   animation: entrada-sol 0.3s linear forwards;
-  position: absolute;
-  bottom: 120px;
+  position: fixed;
+  bottom: 0px;
   left: 50%;
   transform: translateX(100%);
 }

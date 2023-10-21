@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import {
-  IoCalendarOutline, IoHomeOutline, IoListOutline, IoAirplaneOutline, IoPeopleOutline,
+  IoPersonRemoveOutline,
+  IoSwapHorizontalOutline,
+  IoCalendarOutline,
+  IoHomeOutline,
+  IoListOutline,
+  IoAirplaneOutline,
+  IoPeopleOutline,
 } from 'react-icons/io5';
 import '../styles/BottomNavBar.css';
 
@@ -10,7 +16,7 @@ function BottomNavBar() {
     <div className="bottom-bar">
       {botaoAcaoAtivo && (
         <div>
-          <button
+          {/* <button
             type="button"
             aria-label="overlay-acoes"
             tabIndex={0}
@@ -21,10 +27,36 @@ function BottomNavBar() {
             className="overlay-acoes"
             onClick={() => setbotaoAcaoAtivo(false)}
             onKeyDown={() => setbotaoAcaoAtivo(false)}
-          />
+          /> */}
           <div className="acoes">
-            <div className="aus-inesp">aus</div>
-            <div className="sol-alt">sol</div>
+            <div className="botao-label-aus-inesp">
+              <button
+                className="aus-inesp"
+                type="button"
+                aria-label="Ausência Inesperada"
+              >
+                <IoPersonRemoveOutline size="1.5em" />
+              </button>
+              <span>
+                Ausência
+                <br />
+                Inesperada
+              </span>
+            </div>
+            <div className="botao-label-sol-alt">
+              <button
+                className="sol-alt"
+                type="button"
+                aria-label="Solicitar Alteração"
+              >
+                <IoSwapHorizontalOutline size="1.5em" />
+              </button>
+              <span>
+                Solicitar
+                <br />
+                Alteração
+              </span>
+            </div>
           </div>
         </div>
       )}
