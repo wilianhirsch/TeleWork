@@ -47,12 +47,12 @@ function Login() {
           value={password}
           onChange={handlePasswordChange}
         />
-        <button type='button' className="login-botao" onClick={handleLogin}>
+        <button type="button" className="login-botao" onClick={handleLogin}>
           Entrar
         </button>
-        <a href="#" className="forgot-password-link">
+        <button type="button" className="forgot-password-link">
           Esqueceu a senha?
-        </a>
+        </button>
       </div>
     </div>
   );

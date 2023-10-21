@@ -5,13 +5,15 @@ import { format } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import { IoArrowBackOutline, IoArrowForwardOutline } from 'react-icons/io5';
 
-const formatoData = (locale, date) => {
-  <div>
-    <span className="Ano">{format(date, 'yyyy')}</span>
-    <br className="QuebraLinha" />
-    <span className="Mes">{format(date, 'MMMM', { locale })}</span>
-  </div>;
-};
+function formatoData(locale, date) {
+  return (
+    <div>
+      <span className="Ano">{format(date, 'yyyy')}</span>
+      <br className="QuebraLinha" />
+      <span className="Mes">{format(date, 'MMMM', { locale })}</span>
+    </div>
+  );
+}
 
 function Calendario() {
   const [value, onChange] = useState(new Date());

@@ -5,19 +5,43 @@ import {
 import '../styles/BottomNavBar.css';
 
 function BottomNavBar() {
-  const [botaoAcaoAtivo, setbotaoAcaoAtivo] = useState(true);
+  const [botaoAcaoAtivo, setbotaoAcaoAtivo] = useState(false);
   return (
     <div className="bottom-bar">
       {botaoAcaoAtivo && (
         <div>
-          <div className="overlay-acoes" onClick={() => setbotaoAcaoAtivo(false)} />
+          <button
+            type="button"
+            aria-label="overlay-acoes"
+            tabIndex={0}
+            aria-pressed={botaoAcaoAtivo}
+            aria-labelledby="overlay-acoes"
+            aria-hidden={false}
+            aria-disabled={false}
+            className="overlay-acoes"
+            onClick={() => setbotaoAcaoAtivo(false)}
+            onKeyDown={() => setbotaoAcaoAtivo(false)}
+          />
           <div className="acoes">
             <div className="aus-inesp">aus</div>
             <div className="sol-alt">sol</div>
           </div>
         </div>
       )}
-      <div className="botao-acao" onClick={() => setbotaoAcaoAtivo(!botaoAcaoAtivo)}><IoCalendarOutline size="2em" /></div>
+      <button
+        type="button"
+        aria-label="Botão de ação"
+        tabIndex={0}
+        aria-pressed={botaoAcaoAtivo}
+        aria-labelledby="botao-acao"
+        aria-hidden={false}
+        aria-disabled={false}
+        className="botao-acao"
+        onClick={() => setbotaoAcaoAtivo(!botaoAcaoAtivo)}
+        onKeyDown={() => setbotaoAcaoAtivo(!botaoAcaoAtivo)}
+      >
+        <IoCalendarOutline size="2em" />
+      </button>
       <div className="bottom-navigation-bar">
         <div
           className="nav-item"

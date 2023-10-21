@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Inicio.css';
 import { slide as Menu } from 'react-burger-menu';
 import {
@@ -8,9 +8,7 @@ import Calendario from './Calendario';
 import BottomNavBar from './BottomNavBar';
 
 function Inicio() {
-  const [isLeftSidebarOpen, setIsLeftSidebarOpen] = useState(false);
   const imgSrc = `${process.env.PUBLIC_URL}/foto.jpeg`;
-
 
   return (
     <div className="app-container">
