@@ -1,14 +1,12 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-image: url('../public/background.svg');
-  background-size: contain;
-  background-repeat:repeat;
+  background-size: cover; /* Use cover para cobrir toda a tela */
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 100vh;
+  height: 100svh; /* Usando min-height para cobrir pelo menos a altura da tela */
   overflow: hidden;
 }
 

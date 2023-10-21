@@ -1,13 +1,13 @@
 .react-calendar { 
-    width: 100svw;
-    max-width: 65vh;
+    width: 80svw;
+    max-width: 50vh;
     max-height: 100%;
     color: #00392d;
     font-family: 'Roboto', sans-serif;
     line-height: 1.125em;
     font-size: 14px;
    }
-   
+
   .react-calendar__viewContainer {
     border-radius: 8px;
     background-color:white;
