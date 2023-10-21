@@ -8,6 +8,7 @@ function Login() {
   const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
@@ -20,11 +21,10 @@ function Login() {
   const handleLogin = () => {
     if (username && password) {
       // Lógica de autenticação bem-sucedida
-      alert('Login bem-sucedido! Redirecionando...');
       navigate('/inicio');
     } else {
       // Tratamento de erro ou exibição de mensagem de erro
-      alert('Preencha todos os campos');
+      setErrorMessage('Preencha todos os campos');
     }
   };
 
@@ -50,6 +50,7 @@ function Login() {
         <button type="button" className="login-botao" onClick={handleLogin}>
           Entrar
         </button>
+        <p className="error-message">{errorMessage}</p>
         <button type="button" className="forgot-password-link">
           Esqueceu a senha?
         </button>
