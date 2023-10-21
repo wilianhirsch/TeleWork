@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/background.svg');
+  background-size: contain;
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+abbr[title] {
+  text-decoration: none; /* Remove o sublinhado */
+}
+
