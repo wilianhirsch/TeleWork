@@ -1,0 +1,70 @@
+/* Estilo para o contêiner da tela de login */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    /* background: linear-gradient(135deg, #00b894, #fff); */
+    margin: 0;
+    overflow: hidden;
+  }
+  .loginAnimation {
+    width: 300px;
+  }
+  
+  .login-form {
+    /* margin-top: 5%; */
+    background:rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #00392d;
+  }
+  
+  /* Estilo para os campos de entrada */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00392d;
+    border-radius: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para o botão de login */
+  .login-botao {
+    background-color: #00392d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o link "Esqueceu a senha?" */
+  .forgot-password-link {
+    text-decoration: none;
+    color: #00392d;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  
+  /* Estilo para mensagens de erro */
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

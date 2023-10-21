@@ -1,0 +1,30 @@
+/* Estilo para o contêiner do left-sidebar */
+.left-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 250px; /* Largura do left-sidebar */
+    background-color: #333; /* Cor de fundo do left-sidebar */
+    color: #fff; /* Cor do texto */
+    /* padding: 20px; Espaçamento interno */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Sombra à direita */
+  }
+  
+  /* Estilo para o botão de alternar visão */
+  .left-sidebar button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Espaçamento inferior do botão */
+    cursor: pointer;
+  }
+  
+  /* Estilo para o texto da visão atual */
+  .left-sidebar p {
+    font-size: 16px; /* Tamanho da fonte do texto */
+  }
+  
