@@ -1,0 +1,67 @@
+[
+    {
+        "Matrícula": "123456",
+        "E-mail": "puc@minas.br",
+        "Senha": "engenharia",
+        "Foto_Usuário": "user1.jpg",
+        "CPF": "123.456.789-00",
+        "Papel": "Colaborador",
+        "Equipe Colaborador": "Equipe 1",
+        "Data Início": "15/01/2023",
+        "Data Fim": "31/12/2023",
+        "Responsável pelo Cadastro": "Admin1",
+        "Data de Cadastro": "10/01/2023"
+    },
+    {
+        "Matrícula": "789012",
+        "E-mail": "usuario2@email.com",
+        "Senha": "minhaSenha",
+        "Foto_Usuário": "user2.jpg",
+        "CPF": "987.654.321-00",
+        "Papel": "Gerente",
+        "Equipe Colaborador": "Equipe 1",
+        "Data Início": "20/02/2023",
+        "Data Fim": "30/11/2023",
+        "Responsável pelo Cadastro": "Admin2",
+        "Data de Cadastro": "15/02/2023"
+    },
+    {
+        "Matrícula": "456789",
+        "E-mail": "usuario3@email.com",
+        "Senha": "12345",
+        "Foto_Usuário": "user3.jpg",
+        "CPF": "456.789.123-00",
+        "Papel": "Colaborador",
+        "Equipe Colaborador": "Equipe 2",
+        "Data Início": "25/03/2023",
+        "Data Fim": "31/10/2023",
+        "Responsável pelo Cadastro": "Admin1",
+        "Data de Cadastro": "20/03/2023"
+    },
+    {
+        "Matrícula": "987654",
+        "E-mail": "usuario4@email.com",
+        "Senha": "acesso123",
+        "Foto_Usuário": "user4.jpg",
+        "CPF": "789.123.456-00",
+        "Papel": "Gerente",
+        "Equipe Colaborador": "Equipe 2",
+        "Data Início": "30/04/2023",
+        "Data Fim": "30/09/2023",
+        "Responsável pelo Cadastro": "Admin2",
+        "Data de Cadastro": "25/04/2023"
+    },
+    {
+        "Matrícula": "567890",
+        "E-mail": "usuario5@email.com",
+        "Senha": "senha1234",
+        "Foto_Usuário": "user5.jpg",
+        "CPF": "567.890.123-00",
+        "Papel": "Colaborador",
+        "Equipe Colaborador": "Equipe 2",
+        "Data Início": "10/06/2023",
+        "Data Fim": "31/08/2023",
+        "Responsável pelo Cadastro": "Admin1",
+        "Data de Cadastro": "05/06/2023"
+    }
+]

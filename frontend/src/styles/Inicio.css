@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space between;
   align-items: center;
-  padding: 10px;
   color: #fff;
   flex-direction: row;
 }
@@ -59,38 +58,52 @@
   font-size: 14px;
 }
 
-.div-icone-visao, .div-info-visao, .div-icone-status, .div-info-status {
+.div-label-visao, .div-info-visao, .div-label-status, .div-info-status {
   display: flex;
   align-items: center;
   padding: 0 10px;
   border-style: solid;
-  border-color: #da2047;
+  border-color: #00392d;
   border-width: 1px;
 }
 
-.div-icone-visao, .div-icone-status {
+.div-label-visao, .div-label-status {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
+  width: 50px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
   margin-right: 2.5px;
-  background-color: #da2047;
-  color: white;
+  background-color: white;
+  color: #00392d;
 }
 
 .label-visao, .label-status {
   font-weight: bold;
-  margin-right: 5px;
 }
 
 .div-info-visao, .div-info-status {
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
   margin-left: 2.5px;
+  width: 100px;
+}
+
+.div-info-visao{
   background-color: white;
-  color: #da2047;
-  width: 100%;
+  color: #00392d;
+}
+.div-info-status {
+  background-color: #00d3a5;
+  color: #00392d;
+}
+
+.info-visao, .info-status {
+  margin-left: 5px;
 }
 
 .calendar-container {
@@ -162,7 +175,7 @@
   top:0;
   bottom: 0;
   height: 100%;
-  z-index: 0 !important;
+  z-index: 10 !important;
 }
 
 .bm-menu-wrap.right-menu {
@@ -189,11 +202,6 @@
   margin-right: 20px;
 }
 
-.left-menu .bm-overlay {
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.3);
-}
 
 .left-menu .bm-nome {
   margin-top: 30px;
@@ -239,6 +247,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.overlay-esquerda {
+  /* z-index: 100; */
+  opacity: 0;
+  position: absolute;
+  left: 320px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 .bm-div-notif-titulo:nth-child(1) {

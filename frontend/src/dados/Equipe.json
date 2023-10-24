@@ -1,0 +1,22 @@
+[
+    {
+        "ID": "1",
+        "Nome": "Equipe 1",
+        "Matrícula do Gestor": "123456",
+        "Matrícula do Gestor Substituto": "789012",
+        "Data Início": "01/01/2023",
+        "Data Fim": "",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "31/12/2022"
+    },
+    {
+        "ID": "1",
+        "Nome": "Equipe 2",
+        "Matrícula do Gestor": "123456",
+        "Matrícula do Gestor Substituto": "789012",
+        "Data Início": "01/01/2023",
+        "Data Fim": "",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "31/12/2022"
+    }
+]

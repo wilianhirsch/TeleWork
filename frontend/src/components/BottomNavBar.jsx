@@ -16,7 +16,7 @@ function BottomNavBar() {
     <div className="bottom-bar">
       {botaoAcaoAtivo && (
         <div>
-          {/* <button
+          <button
             type="button"
             aria-label="overlay-acoes"
             tabIndex={0}
@@ -27,7 +27,7 @@ function BottomNavBar() {
             className="overlay-acoes"
             onClick={() => setbotaoAcaoAtivo(false)}
             onKeyDown={() => setbotaoAcaoAtivo(false)}
-          /> */}
+          />
           <div className="acoes">
             <div className="botao-label-aus-inesp">
               <button

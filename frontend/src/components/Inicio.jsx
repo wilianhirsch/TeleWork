@@ -9,7 +9,6 @@ import BottomNavBar from './BottomNavBar';
 
 function Inicio() {
   const imgSrc = `${process.env.PUBLIC_URL}/foto.jpeg`;
-
   return (
     <div className="app-container">
       <header className="app-header">
@@ -45,9 +44,8 @@ function Inicio() {
         </Menu>
         <Menu
           className="right-menu"
-          right
-          // isOpen={true}
           noOverlay
+          right
           customBurgerIcon={(
             <div className="notification-icon">
               <IoNotificationsOutline color="#00392d" size="2em" />
@@ -106,20 +104,20 @@ function Inicio() {
       <main className="app-main">
         <div className="div-info-inicio">
           <div className="div-visao">
-            <div className="div-icone-visao">
-              <IoPerson className="icone-visao" />
+            <div className="div-label-visao">
+              <span className="label-visao">Visão:</span>
             </div>
             <div className="div-info-visao">
-              <span className="label-visao">Visão: </span>
+              <IoPerson className="icone-visao" />
               <span className="info-visao">Colaborador</span>
             </div>
           </div>
           <div className="div-status">
-            <div className="div-icone-status">
-              <IoCheckmarkCircle className="icone-status" />
+            <div className="div-label-status">
+              <span className="label-status">Status:</span>
             </div>
             <div className="div-info-status">
-              <span className="label-status">Status: </span>
+              <IoCheckmarkCircle className="icone-status" />
               <span className="info-status">Autorizada</span>
             </div>
           </div>

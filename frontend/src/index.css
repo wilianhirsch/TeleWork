@@ -2,8 +2,8 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background-image: url('../public/background.svg');
-  background-size: cover; /* Use cover para cobrir toda a tela */
-  background-repeat: no-repeat;
+  background-size: 50%; /* Use cover para cobrir toda a tela */
+  background-repeat:repeat;
   background-attachment: fixed;
   background-position: center;
   height: 100svh; /* Usando min-height para cobrir pelo menos a altura da tela */

@@ -1,0 +1,20 @@
+[
+    {
+        "ID": "1",
+        "Tipo": "Geral",
+        "Descrição": "Não gestores podem trabalhar até 40% dos dias úteis do mês em Home Office",
+        "Mês Início": "jan/23",
+        "Mês Fim": "",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2023"
+    },
+    {
+        "ID": "2",
+        "Tipo": "Gestores",
+        "Descrição": "Livre",
+        "Mês Início": "jan/23",
+        "Mês Fim": "",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2023"
+    }
+]

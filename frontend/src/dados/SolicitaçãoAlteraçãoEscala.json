@@ -1,0 +1,22 @@
+[
+    {
+        "ID": "1",
+        "Mês": "out/23",
+        "Colaborador": "123456",
+        "DataNovaEscala": "23/10/2023",
+        "ModalidadeNovaEscala": "Home Office",
+        "ObsNovaEscala": "Compromisso Externo cancelado",
+        "Status": "Autorizado",
+        "Data de Cadastro": "10/10/2023"
+    },
+    {
+        "ID": "2",
+        "Mês": "out/23",
+        "Colaborador": "123456",
+        "DataNovaEscala": "24/10/2023",
+        "ModalidadeNovaEscala": "Home Office",
+        "ObsNovaEscala": "Compromisso Externo cancelado",
+        "Status": "Autorizado",
+        "Data de Cadastro": "10/10/2023"
+    }
+]

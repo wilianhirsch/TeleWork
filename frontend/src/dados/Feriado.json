@@ -1,0 +1,178 @@
+[
+    {
+        "ID": "1",
+        "Data": "01/01/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Confraternização Universal",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "2",
+        "Data": "07/04/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Paixão de Cristo",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "3",
+        "Data": "09/04/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Páscoa",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "4",
+        "Data": "21/04/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Tiradentes",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "5",
+        "Data": "01/05/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Dia Universal do Trabalho",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "6",
+        "Data": "07/09/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Independência do Brasil",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "7",
+        "Data": "12/10/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Nossa Senhora de Aparecida, padroeira do Brasil",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "8",
+        "Data": "02/11/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Dia dos Finados",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "9",
+        "Data": "15/11/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Proclamação da República",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "10",
+        "Data": "25/12/2023",
+        "Tipo": "Feriado Nacional",
+        "Descrição": "Natal",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "11",
+        "Data": "20/09/2023",
+        "Tipo": "Feriado Estadual",
+        "Descrição": "Data Magna Estadual",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "12",
+        "Data": "02/02/2023",
+        "Tipo": "Feriado Municipal",
+        "Descrição": "Dia de Nossa Senhora dos Navegantes",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "13",
+        "Data": "08/06/2023",
+        "Tipo": "Feriado Municipal",
+        "Descrição": "Corpus-Christi",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "14",
+        "Data": "20/02/2023",
+        "Tipo": "Pontos Facultativos",
+        "Descrição": "Carnaval (Segunda-feira)",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "15",
+        "Data": "21/02/2023",
+        "Tipo": "Pontos Facultativos",
+        "Descrição": "Carnaval (Terça-feira)",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "16",
+        "Data": "08/04/2023",
+        "Tipo": "Pontos Facultativos",
+        "Descrição": "Sábado de Aleluia",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "17",
+        "Data": "15/10/2023",
+        "Tipo": "Pontos Facultativos",
+        "Descrição": "Dia do Professor (Somente nos estabelecimentos de ensino)",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "18",
+        "Data": "28/10/2023",
+        "Tipo": "Pontos Facultativos",
+        "Descrição": "Dia do Servidor Público",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "19",
+        "Data": "24/12/2023",
+        "Tipo": "Pontos Facultativos",
+        "Descrição": "Véspera de Natal",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "20",
+        "Data": "31/12/2023",
+        "Tipo": "Pontos Facultativos",
+        "Descrição": "Véspera de Ano Novo",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "21",
+        "Data": "06/04/2023",
+        "Tipo": "Expediente Matutino",
+        "Descrição": "Quinta-Feira Santa (até 12 horas)",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    },
+    {
+        "ID": "22",
+        "Data": "22/02/2023",
+        "Tipo": "Expediente Vespertino",
+        "Descrição": "Quarta-Feira de Cinzas (a partir das 13h)",
+        "Responsável pelo Cadastro": "admin1",
+        "Data de Cadastro": "28/12/2022"
+    }
+]
