@@ -1,0 +1,6 @@
+Flask
+Flask_Cors
+flask_sqlalchemy
+greenlet
+psycopg2
+python-dotenv==1.0.0
