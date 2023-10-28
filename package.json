@@ -4,8 +4,10 @@
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
+        "axios": "^1.6.0",
         "date-fns": "^2.30.0",
         "lottie-react": "^2.4.0",
+        "prop-types": "^15.8.1",
         "react": "^18.2.0",
         "react-burger-menu": "^3.0.9",
         "react-calendar": "^4.6.0",
