@@ -1,14 +1,14 @@
 import React from 'react';
-import '../styles/Inicio.css';
+import '../styles/Header.css';
 import { slide as Menu } from 'react-burger-menu';
 import {
-  IoRadioButtonOn, IoRadioButtonOff, IoNotificationsOutline,
+  IoPerson, IoRadioButtonOn, IoRadioButtonOff, IoNotificationsOutline,
 } from 'react-icons/io5';
 
 function Header() {
   const imgSrc = `${process.env.PUBLIC_URL}/foto.jpeg`;
   return (
-    <header className="app-header">
+    <div className="app-header">
       <Menu
         className="left-menu"
         noOverlay
@@ -39,6 +39,15 @@ function Header() {
           </div>
         </div>
       </Menu>
+      <div className="div-visao">
+        <div className="div-label-visao">
+          <span className="label-visao">Visão:</span>
+        </div>
+        <div className="div-info-visao">
+          <IoPerson className="icone-visao" />
+          <span className="info-visao">Colaborador</span>
+        </div>
+      </div>
       <Menu
         className="right-menu"
         noOverlay
@@ -46,11 +55,9 @@ function Header() {
         customBurgerIcon={(
           <div className="notification-icon">
             <IoNotificationsOutline color="#00392d" size="2em" />
-            <span className="badge">
-              2
-            </span>
+            <span className="badge"> 2 </span>
           </div>
-      )}
+        )}
       >
         <div className="bm-div-notif-titulo">
           <span className="bm-notif-titulo">Últimas Notificações</span>
@@ -95,7 +102,7 @@ function Header() {
           </div>
         </div>
       </Menu>
-    </header>
+    </div>
   );
 }
 

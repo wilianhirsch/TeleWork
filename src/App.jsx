@@ -55,11 +55,7 @@ function App() {
           <Route
             path="/"
             element={
-              authenticated ? (
-                <Inicio />
-              ) : (
-                <Login handleAuthentication={handleAuthentication} />
-              )
+              <Login onAuthentication={handleAuthentication} />
             }
           />
           <Route
